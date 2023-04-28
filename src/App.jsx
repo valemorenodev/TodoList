@@ -1,10 +1,14 @@
 import Container from './View/Container/Container.jsx'
-import './App.css'
+import './App.scss'
+//Impotacion de carpeta de bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
-    <Container />
+    <div className='App'>
+      <Container />
+    </div>
   )
 }
 

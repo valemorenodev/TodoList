@@ -1,7 +1,11 @@
+// el siguiente comentario es para que sonarqube no marque error ya que no esta actualizado para manejar props (los toma como variables no definidas)
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 
 const FormTodo = (props) => {
+
   const { handleAddItem } = props;
+  // Al crear la tarea toma el valor y lo guarda en {description}
   const [description, setDescription] = useState("");
   const handleSubmit = e => {
     e.preventDefault();

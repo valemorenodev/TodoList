@@ -1,3 +1,4 @@
-.Container {
-  background-color: deeppink;
+#Container {
+  display: flex;
+  flex-direction: column;
 }
